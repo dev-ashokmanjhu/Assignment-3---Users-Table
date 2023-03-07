@@ -77,8 +77,8 @@ function App() {
     setIsDarkMode(!isDarkMode);
   };
 
-  const tableStyle = `w-full ${
-    isDarkMode ? "bg-gray-800 text-white" : "bg-gray-200 text-gray-800"
+  const tableStyle = `w-10/12 m-4 mx-auto  ${
+    isDarkMode ? "bg-gray-800 text-white" : "bg-white text-gray-800"
   }`;
   const thStyle = "bg-gray-400 px-4 py-2 text-left";
   const tdStyle = "border px-4 py-2";
@@ -86,9 +86,9 @@ function App() {
   const users = usersData.slice(0, 10);
 
   return (
-    <div className={`App ${isDarkMode ? "dark" : "light"}`}>
+    <div>
       <header className="p-4 bg-indigo-600 text-white flex justify-center items-center ">
-        <h1 className="text-2xl font-bold">Users List</h1>
+        <h1 className="text-2xl font-bold ">Assignment 3</h1>
         <button
           className="bg-indigo-500 px-2 py-1 mx-4 rounded-md"
           onClick={toggleDarkMode}
