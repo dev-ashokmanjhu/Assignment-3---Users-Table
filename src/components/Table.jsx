@@ -1,46 +1,46 @@
 import React, { useState } from "react";
 
 const usersData = [
-  { id: 1, title: "John Doe", body: "Lorem ipsum dolor sit amet." },
-  { id: 2, title: "Jane Smith", body: "Ut enim ad minim veniam." },
+  { id: 1, title: "Virat", body: "Lorem ipsum dolor sit amet." },
+  { id: 2, title: "Mahendra", body: "Ut enim ad minim veniam." },
   {
     id: 3,
-    title: "Bob Johnson",
+    title: "Rohit",
     body: "Duis aute irure dolor in reprehenderit.",
   },
   {
     id: 4,
-    title: "Alice Williams",
+    title: "Rahul",
     body: "Excepteur sint occaecat cupidatat non proident.",
   },
   {
     id: 5,
-    title: "Peter Brown",
+    title: "Rishabh",
     body: "Sed ut perspiciatis unde omnis iste natus error.",
   },
   {
     id: 6,
-    title: "Sarah Davis",
+    title: "Shikhar",
     body: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur.",
   },
   {
     id: 7,
-    title: "Tom Jackson",
+    title: "Shubham",
     body: "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
   },
   {
     id: 8,
-    title: "Emily Lee",
+    title: "Kuldeep",
     body: "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
   },
   {
     id: 9,
-    title: "David Taylor",
+    title: "Hardik",
     body: "Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
   },
   {
     id: 10,
-    title: "Amy Wilson",
+    title: "Axar",
     body: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   },
   {
