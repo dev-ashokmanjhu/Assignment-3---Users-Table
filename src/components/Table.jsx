@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 // Dummy Data
 const usersData = [
   { id: 1, title: "Virat", body: "Lorem ipsum dolor sit amet." },
@@ -46,27 +45,27 @@ const usersData = [
   },
   {
     id: 11,
-    title: "Mark Davis",
+    title: "Arjun",
     body: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
   },
   {
     id: 12,
-    title: "Karen Johnson",
+    title: "Karan",
     body: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
   },
   {
     id: 13,
-    title: "Steven Lee",
+    title: "Sooraj",
     body: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.",
   },
   {
     id: 14,
-    title: "Michelle Brown",
+    title: "Dev",
     body: "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.",
   },
   {
     id: 15,
-    title: "Daniel Smith",
+    title: "Ashok",
     body: "Omnis voluptas assumenda est, omnis dolor repellendus.",
   },
 ];
